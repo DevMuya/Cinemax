@@ -1,13 +1,102 @@
+*,
+html,
+body {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+  background-color: rgb(15, 4, 53);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.home-page {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+.movie-home {
+  width: 100%;
+  height: 100%;
+  background-position: 5% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-color: rgb(0, 0, 0); */
+}
+
+/* .movie-about {
+  background-color: black;
+  height: 100%;
+  opacity: 0.5;
+  position: relative;
+} */
+.text-mov {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  right: 0;
+}
+.text-movie {
+  color: #fff;
+
+}
+.text-movie .movie-name {
+  font-size: 2em;
+  font-weight: 700;
+}
+.text-movie .movie-director {
+  font-size: 1em;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.category {
+  height: 25%;
+}
+
+/* .slide-holder {
+  height: 30%;
+} */
+
+.slide {
+  /* width: 100%; */
+  height: 100%;
+}
+.top-bar {
+  height: 10vh !important;
+}
+.body-md {
+  height: 90vh;
+}
+
+.movit {
+  background-image: url("/src/images/Avengers-Infinity-War-Poster-Official-2-692x1024.jpg");
+  background-size: cover;
+}
+
+.img-fill {
+  object-fit: fill;
+}
+
+
+.buy-ticket{
+  width:100px;
 }
